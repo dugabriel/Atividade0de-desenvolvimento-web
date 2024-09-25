@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curos Ofad</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+        header {
+            width: 100%;
+            height: 40vh; /* Ajuste a altura conforme necessário */
+            background-size: cover; /* Faz a imagem cobrir todo o header */
+            background-position: center; /* Centraliza a imagem */
+            background-repeat: no-repeat; /* Evita repetição da imagem */
+
+        }
+        .custom-text {
+            font-weight: 700; /* Define o peso da fonte */
+            text-transform: uppercase; /* Converte o texto para caixa alta */
+            letter-spacing: 0.1em; /* Aumenta o espaçamento entre letras */
+            font-size: 4rem; /* Tamanho grande para o título */
+            background: linear-gradient(45deg, rgb(80, 80, 80), white, rgb(80, 80, 80)); /* Gradiente de cor */
+            -webkit-background-clip: text; /* Faz o gradiente aparecer no texto */
+            -webkit-text-fill-color: transparent; /* Torna o texto transparente para mostrar o gradiente */
+            text-align: center; /* Centraliza o texto */  
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <header style="background-image: url('img/header.jpg');">
+        <div class="container h-100 d-flex align-items-center justify-content-center">
+            <h1 class="text-white custom-text">Cursos do Tio meio rico</h1>
+        </div>
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    <div class="container p5 my-5">
+        <div class="card-group">
+            <div class="card">
+                <img src="img/curso1.jpg" class="card-img-top" alt="curso1" style="height: 400px;">
+                <div class="card-body">
+                    <h5 class="card-title">Curso de venda de curso</h5>
+                    <p class="card-text">Como vender cursos de maneira atualizada e totalmente segura sem vírus 2025 atualizado crackeado</p>
+                    <p class="card-text"><small class="text-body-secondary">SEM REEMBOLSO</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/curso2.jpg" class="card-img-top" alt="curso1" style="height: 400px;">
+                <div class="card-body">
+                    <h5 class="card-title">Como ganhar no jogo do bixo</h5> <p class="card-text">Turorial de como ganhar no bixo de maneira legitima rapida e efetiva</p>
+                    <p class="card-text"><small class="text-body-secondary">Dukodre esteve aqui</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="container-sm p-5">
+            <h2>Formulário de cadastro</h2>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" required>
+                    <div id="emailHelp" class="form-text">Selecione o seu melhor e-mail aqui!</div>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Endereço</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Digite o endereço com o número">
+                </div>
+                <div class="col-12">
+                    <label for="graduation" class="form-label">Curso</label>
+                    <select id="graduation" class="form-control">
+                        <optgroup>
+                            <option>Curso de venda de curso</option>
+                        </optgroup>
+                        <optgroup>
+                            <option>Como ganhar no jogo do bixo</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">Cidade</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputState" class="form-label">Estado</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Escolha...</option>
+                        <option>SC</option>
+                        <option>MG</option>
+                        <option>SP</option>
+                        <option>AC</option>
+                        <option>AM</option>
+                        <option>PA</option>
+                        <option>PR</option>
+                        <option>RS</option>
+                        <option>AL</option>
+                        <option>SE</option>
+                        <option>CE</option>
+                        <option>MT</option>
+
+
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label for="inputZip" class="form-label">Código Postal</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                        <label class="form-check-label" for="gridCheck">
+                            Aceito todos os termos
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary" onclick="teste()">Comprar</button>
+                </div>
+            </form>
+        </div>
+    
+        <!--Cria uma linha que divide a seção-->
+        <hr class="featurette-divider">
+</body>
+</html>
